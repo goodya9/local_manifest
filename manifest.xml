@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Device Trees -->
+ <project name="goodya9/device_xiaomi_ulysse" path="device/xiaomi/ulysse" remote="github" revision="12" />
+ <project name="mgs28-mh/device_xiaomi_ulysse-common" path="device/xiaomi/ulysse-common" remote="github" revision="12" />
+
+<!-- Vendor Trees -->
+ <project name="mgs28-mh/vendor_xiaomi_ugg" path="vendor/xiaomi/ugg" remote="github" revision="12" />
+ <project name="mgs28-mh/vendor_xiaomi_ulysse-common" path="vendor/xiaomi/ulysse-common" remote="github" revision="12" />
+  
+<!-- Kernel -->
+ <project name="mgs28-mh/kernel_xiaomi_ulysse-4.9" path="kernel/xiaomi/ulysse" remote="github" revision="a12/temp" />
+
+<!-- Clang -->
+ <project name="Gabuters-Dev/vendor_xiaomi_dirac" path="vendor/xiaomi/part" remote="github" revision="12" />
+ <project name="Gabuters-Dev/gabuters-clang" path="prebuilts/clang/host/linux-x86/gabuters-clang" remote="github" revision="master" />
+
+</manifest>
